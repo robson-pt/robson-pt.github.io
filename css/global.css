@@ -1,0 +1,63 @@
+/* COLORS */
+:root {
+  --c1: #f5f5f5;
+  --c2: #e0e0e0;
+  --c3: #cccccc;
+  --c4: #b8b8b8;
+  --c5: #a3a3a3;
+  --c6: #8f8f8f;
+  --c7: #7a7a7a;
+  --c8: #666666;
+  --c9: #525252;
+  --c10: #3d3d3d;
+  --c11: #292929;
+  --c12: #141414;
+  --s1: #9400d3;
+  --s2: #c730ed;
+  --s3: #df84ff;
+}
+
+/* RESET */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px = 1rem */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  color: var(--c12);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  display: inline-block;
+}
+
+.content {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 4rem 2rem;
+  align-items: center;
+  gap: 10rem;
+}
+
+.subtitulo {
+  font-weight: 700;
+  font-size: 14.4rem;
+  line-height: 1;
+  text-transform: uppercase;
+}

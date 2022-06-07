@@ -1,0 +1,46 @@
+.header {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  padding: 4rem 2rem;
+}
+
+.header .header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header a {
+  padding: 0.8rem 1.6rem;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: var(--c12);
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header img {
+    padding: 2rem;
+  }
+
+  .header .header-menu {
+    justify-content: center;
+  }
+
+  .header a {
+    background: var(--c1);
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+}
